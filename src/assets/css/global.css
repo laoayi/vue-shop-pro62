@@ -4,3 +4,14 @@ html,body,#app{
     padding: 0;
     
 }
+
+/* 给左侧 权限 菜单设置样式 */
+.el-submenu__title ,
+.el-menu-item{
+    font-size: 13px;
+}
+
+i.iconfont{
+   margin-right: 10px;
+    
+}
