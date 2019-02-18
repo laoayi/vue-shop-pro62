@@ -1,17 +1,36 @@
-html,body,#app{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* 给左侧 权限 菜单设置样式 */
-.el-submenu__title ,
-.el-menu-item{
-    font-size: 13px;
+.el-submenu__title,
+.el-menu-item {
+  font-size: 13px;
 }
 
-i.iconfont{
-   margin-right: 10px;
-    
+i.iconfont {
+  margin-right: 10px;
+}
+
+/* 给card 卡片区设置 统一样式 */
+.box-card{
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+}
+
+/* 给el-table 设置统一样式 */
+.el-table{
+  margin-top: 15px;
+  font-size: 12px;
+
+}
+
+/* 给分页  设置统一样式 */
+.el-pagination{
+  margin-top: 15px;
+  font-size: 12px;
 }
